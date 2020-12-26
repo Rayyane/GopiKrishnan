@@ -698,6 +698,11 @@
     .portfolio_3_column .portfolio_item .exp {
         right: -40px;
     }
+    .shape-1 {
+        position: absolute;
+        bottom: 0%;
+        left: 50%;
+    }
 }
 
 /* @media (max-width: 576px ) */
@@ -723,6 +728,11 @@
     .blog_single_content .blog_single_item blockquote p {
         font-size: 16px;
         line-height: 24px;
+    }
+    .shape-1 {
+        position: absolute;
+        bottom: 0%;
+        left: 50%;
     }
 }
 /* @media (max-width: 440px ) */
