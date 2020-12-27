@@ -1514,11 +1514,12 @@ header.header.headerFixed {
     display: block;
     border: none;
     width: 100%;
+    padding-top: 15px;
 }
 
 .capabiliti_wrap .capabiliti_tab li a {
     color: #666666;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: normal;
     line-height: 60px;
     font-family: "futuraheavy";
@@ -1622,15 +1623,15 @@ header.header.headerFixed {
     width: 100%;
 }
 
-.testimonial_wrap .test_left .test_title:before {
+/*.testimonial_wrap .test_left .test_title:before {
     position: absolute;
     content: "";
-    bottom: 20px;
+    bottom: 10px;
     right: -40px;
-    width: 50px;
+    width: 30px;
     height: 6px;
     background: #cccccc;
-}
+}*/
 
 .testimonial_wrap .client_user_img .user_slider_item {
     margin: 30px 0;
