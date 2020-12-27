@@ -1362,6 +1362,35 @@ header.header.headerFixed {
     height: calc(50% - 1px);
 }
 
+.portfolio_warp .scroll_down {
+    position: absolute;
+    bottom: 70px;
+    right: 25px;
+    transform: rotate(90deg);
+}
+
+.portfolio_warp .scroll_down a {
+    color: #fff;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+
+.portfolio_warp .scroll_down a:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    height: 1px;
+    background: #b9c9db;
+    animation: go_bottom 2s infinite;
+    width: 100%;
+    left: -50px;
+}
+
 
 /* end portfolio */
 
